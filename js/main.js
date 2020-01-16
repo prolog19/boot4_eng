@@ -1,0 +1,1 @@
+$('parallax-win').parallax({ imageSrc: '/img/block/bl1.jpg' });
