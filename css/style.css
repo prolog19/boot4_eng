@@ -1,29 +1,137 @@
-.parallax-win {
-  width: 100vw;
-  min-height: 450px;
-  max-height: 700px;
-  height: 50vw;
-  background: transparent;
-  /* margin: 0 auto; */
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap&subset=cyrillic");
+@import url("../css/media.css");
+body {
+    font-family: "Merriweather", serif;
+    /* font-family: 'Raleway', serif; */
+    font-size: 16px;
+    background-color: white !important;
 }
+
+
+/* Главная страница */
 
 .wrap {
-  max-width: 980px;
-  /* min-height: 400px; */
-  min-width: 320px;
-  margin: 0 auto;
+    max-width: 980px;
+    /* min-height: 400px; */
+    min-width: 320px;
+    margin: 0 auto;
 }
+
+
+/* TEST */
+
+.block {
+    /* background-color: rgba(03, 04, 05, 0.65); */
+    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgba(0, 20, 70, 0.75)); */
+    width: 75%;
+    min-width: 400px;
+    min-height: 500px;
+    max-height: 700px;
+    height: 50vw;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.block::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: rgba(03, 04, 05, 0.65); */
+    background: linear-gradient(155deg, rgba(0, 0, 0, 0.8), rgba(10, 50, 100, 0.65));
+    z-index: -1;
+    top: 0;
+    left: -17%;
+    /* transform-origin: x y z; */
+    transform-origin: 0 1 1;
+    -moz-transform-origin: 0 1 1;
+    -webkit-transform-origin: 0 1 1;
+    -o-transform-origin: 0 1 1;
+    -ms-transform-origin: 0 1 1;
+    /* transform */
+    transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+}
+
+.block-adv {
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 6vw 15vw 7vw 6vw;
+}
+
+.block-title {
+    color: #fff;
+    text-shadow: 1px 0px, 0px 1px indigo, -1px 0px indigo, 0px -1px indigo, 0px 0px 4px indigo;
+    /* text-shadow: 1px 0px, 0px 1px crimson, -1px 0px crimson, 0px -1px crimson, 0px 0px 4px crimson; */
+    /* text-shadow: 1px 0px, 0px 1px darkviolet, -1px 0px darkviolet, 0px -1px darkviolet, 0px 0px 4px darkviolet; */
+}
+
+.block-title_ {
+    color: #fff;
+    text-shadow: 1px 0px, 0px 1px indigo, -1px 0px indigo, 0px -1px indigo, 0px 0px 4px indigo;
+    /* text-shadow: 1px 0px, 0px 1px crimson, -1px 0px crimson, 0px -1px crimson, 0px 0px 4px crimson; */
+    /* text-shadow: 1px 0px, 0px 1px darkviolet, -1px 0px darkviolet, 0px -1px darkviolet, 0px 0px 4px darkviolet; */
+}
+
+
+/* indigo darkviolet crimson  */
+
+.brdg {
+    border: lime solid 2px;
+}
+
+.brdy {
+    border: yellow solid 2px;
+}
+
+
+/* PARALLAX */
+
+.parallax-win {
+    width: 100vw;
+    min-height: 500px;
+    max-height: 700px;
+    height: 50vw;
+    background: transparent;
+    position: relative;
+    /* filter: contrast(200%); */
+    /* margin: 0 auto; */
+}
+
+
+/* OLD */
 
 .adv1 {
-  background-color: rgba(100, 100, 200, 0.3);
+    background-color: rgba(100, 100, 200, 0.3);
 }
 
-.adv2 {
-  background-color: rgb(227, 227, 240);
-  opacity: 0.6;
+.glass {
+    color: #fff;
+    background: url('../img/cl3.jpg') center center fixed no-repeat;
+    width: 50vw;
+    filter: opacity(0.88);
+    opacity: 0.88;
 }
 
-.test {
-  width: 100vw;
-  background: url("../img/block/bl2.jpg") center;
+.parallax1 {
+    width: 100vw;
+    min-height: 450px;
+    max-height: 700px;
+    height: 50vw;
+    background: linear-gradient(50deg, #53a 0%, transparent 50%, transparent 100%);
+    /* background: transparent; */
+    /* margin: 0 auto; */
+}
+
+.main-line__h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 0.8;
+    color: #000000;
+    text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 5px #473950;
+    padding-left: 3%;
+    padding-bottom: 1%;
 }
