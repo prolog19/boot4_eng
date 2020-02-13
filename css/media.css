@@ -1,28 +1,61 @@
-/* на sm */
+/*
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+*/
 
-@media (max-width: 768px) {
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {
     html {
-        /* font-size: 14px; */
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
 }
 
 
-/* на md */
+/* Portrait tablets and medium desktops */
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     html {
-        /* font-size: 16px; */
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (min-width: 651px) and (max-width: 767px) {
+    html {
         font-size: 1rem;
     }
 }
 
 
-/* на lg */
+/* По надобности дописую промежуточные разрешения, если вдруг по дизайну что то падает на 650px, тогда дописую: */
 
-@media (min-width: 1200px) {
+@media (min-width: 481px) and (max-width: 650) {
     html {
-        /* font-size: 18px; */
-        font-size: 1.1rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 0.8rem;
     }
 }

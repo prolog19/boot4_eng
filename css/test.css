@@ -1,0 +1,49 @@
+.block-title {
+    color: #fff;
+    text-shadow: 1px 0px, 0px 1px black, -1px 0px black, 0px -1px black, 0px 0px 4px black;
+    /* text-shadow: 1px 0px, 0px 1px indigo, -1px 0px indigo, 0px -1px indigo, 0px 0px 4px indigo; */
+    /* text-shadow: 1px 0px, 0px 1px crimson, -1px 0px crimson, 0px -1px crimson, 0px 0px 4px crimson; */
+    /* text-shadow: 1px 0px, 0px 1px darkviolet, -1px 0px darkviolet, 0px -1px darkviolet, 0px 0px 4px darkviolet; */
+}
+
+
+/* TEST */
+
+
+/* indigo darkviolet crimson  */
+
+.brdg {
+    border: lime solid 2px;
+}
+
+
+/* OLD */
+
+.adv1 {
+    background-color: rgba(100, 100, 200, 0.3);
+}
+
+.glass {
+    color: #fff;
+    background: url('../img/cl3.jpg') center center fixed no-repeat;
+    width: 50vw;
+    filter: opacity(0.88);
+    opacity: 0.88;
+}
+
+.main-line__h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 0.8;
+    color: #000000;
+    text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 5px #473950;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+.mirror {
+    transform: rotate(180deg);
+}
+
+
+/* --------------------------------------------------------------------------- */
