@@ -10,7 +10,8 @@
 /* Large desktops and laptops */
 
 @media (min-width: 1200px) {
-    html {
+    html,
+    body {
         font-size: 1.3rem;
     }
 }
@@ -19,7 +20,8 @@
 /* Portrait tablets and medium desktops */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    html {
+    html,
+    body {
         font-size: 1.2rem;
     }
 }
@@ -28,7 +30,8 @@
 /* Portrait tablets and small desktops */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    html {
+    html,
+    body {
         font-size: 1.1rem;
     }
 }
@@ -37,7 +40,8 @@
 /* Landscape phones and portrait tablets */
 
 @media (min-width: 651px) and (max-width: 767px) {
-    html {
+    html,
+    body {
         font-size: 1rem;
     }
 }
@@ -46,7 +50,8 @@
 /* По надобности дописую промежуточные разрешения, если вдруг по дизайну что то падает на 650px, тогда дописую: */
 
 @media (min-width: 481px) and (max-width: 650) {
-    html {
+    html,
+    body {
         font-size: 0.8rem;
     }
 }
@@ -55,7 +60,8 @@
 /* Landscape phones and smaller */
 
 @media (max-width: 480px) {
-    html {
+    html,
+    body {
         font-size: 0.8rem;
     }
 }

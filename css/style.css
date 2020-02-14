@@ -17,6 +17,7 @@ body {
     /* min-height: 400px; */
     min-width: 320px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .navbar-brand {
@@ -33,8 +34,9 @@ body {
     height: 50vw;
     background: transparent;
     position: relative;
+    z-index: 100;
     /* ровно 20 пикселей вниз съезжает и здесь надо поднять */
-    margin-top: -20px;
+    /* margin-top: -20px; */
     /* filter: contrast(200%); */
 }
 
@@ -88,7 +90,6 @@ body {
 .h-contour {
     color: #fff;
     /* text-shadow: 1px 0px yellowgreen, 0px 1px yellowgreen, -1px 0px yellowgreen, 0px -1px yellowgreen, 0px 0px 1px yellowgreen; */
-    /* text-shadow: 1px 0px blueviolet, 0px 1px blueviolet, -1px 0px blueviolet, 0px -1px blueviolet; */
     text-shadow: 1px 0px #41046F, 0px 1px #41046F, -1px 0px #41046F, 0px -1px #41046F;
 }
 
@@ -107,17 +108,10 @@ body {
     background-color: #CCF600;
     font-weight: 500;
     /* text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 2px #ffffff; */
-    /* text-shadow: 1px 0px blueviolet, 0px 1px blueviolet, -1px 0px blueviolet, 0px -1px blueviolet; */
 }
 
 
-/* HELLO  */
-
-.hello {
-    z-index: -2;
-    background: linear-gradient(115deg, transparent 34.8%, #F56E8D 35%, #F53D68 85%, #B02C4B 100%);
-    /* overflow: hidden; */
-}
+/* NEXT PARALLAX BLOCK */
 
 .block-second {
     position: absolute;
@@ -129,6 +123,15 @@ body {
     /* height: 50vw; */
     background: linear-gradient(155deg, rgba(0, 0, 0, 0.9), rgba(10, 50, 100, 0.65));
     margin: 20px;
+}
+
+
+/* LIDER  */
+
+.lider {
+    z-index: -2;
+    background: -o-linear-gradient(335deg, transparent 34.8%, #F56E8D 35%, #F53D68 85%, #B02C4B 100%);
+    background: linear-gradient(115deg, transparent 34.8%, #F56E8D 35%, #F53D68 85%, #B02C4B 100%);
 }
 
 .lider_left {
@@ -146,11 +149,13 @@ body {
 }
 
 .lider-img {
-    width: 200px;
-    height: auto;
+    /* width: 200px;
+    height: auto; */
     border-radius: 7px;
+    border: 1px solid #000;
+    margin: 0 10px 0 10px;
 }
 
 .lider_shadow {
-    box-shadow: 3px 3px 5px 4px rgba(10, 50, 100, 0.5);
+    box-shadow: 0px 0px 6px 3px rgba(155, 155, 155, 0.6);
 }
