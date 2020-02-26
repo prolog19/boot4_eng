@@ -155,23 +155,23 @@ body {
 }
 
 .decor-txt_tl {
-    border-top: #444 4px dashed;
-    border-left: #444 4px dashed;
+    border-top: #20686c 4px dashed;
+    border-left: #20686c 4px dashed;
     border-radius: 11px;
 }
 
 .decor-txt_br {
-    border-bottom: #444 4px dashed;
-    border-right: #444 4px dashed;
+    border-bottom: #20686c 4px dashed;
+    border-right: #20686c 4px dashed;
     border-radius: 11px;
 }
 
 .decor-txt_r {
-    border-right: #444 4px dashed;
+    border-right: #20686c 4px dashed;
 }
 
 .decor-txt_l {
-    border-left: #444 4px dashed;
+    border-left: #20686c 4px dashed;
 }
 
 
@@ -179,12 +179,11 @@ body {
 
 .lider {
     z-index: -2;
-    /* background: linear-gradient( 115deg, transparent 34.8%, #f56e8d 35%, #f53d68 75%, #b02c4b 100%);
-    background: -moz-linear-gradient( 335deg, transparent 34.8%, #f56e8d 35%, #f53d68 75%, #b02c4b 100%);*/
-    background: linear-gradient(137deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), linear-gradient(115deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
+    /* background: linear-gradient(137deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), linear-gradient(115deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
     background: -moz-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -moz-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
     background: -webkit-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -webkit-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
-    background: -o-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -o-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
+    background: -o-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -o-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5); */
+    background: linear-gradient(137deg, #b993d6, #8ca6db 24.9%, transparent 25%), linear-gradient(115deg, transparent 42.9%, #8ca6db 41%, #b993d6 80%, #a044ff);
 }
 
 .lider_left {
@@ -226,11 +225,20 @@ body {
 
 .jill {
     z-index: -2;
+    background-image: linear-gradient(60deg, transparent 40.9%, #8ca6db 41%, #b993d6 75%, #a044ff);
+    background-image: -moz-linear-gradient(20deg, transparent 40.9%, #8ca6db 41%, #b993d6 75%, #a044ff);
+    background-image: -webkit-linear-gradient(20deg, transparent 40.9%, #8ca6db 41%, #b993d6 75%, #a044ff);
+    background-image: -o-linear-gradient(20deg, transparent 40.9%, #8ca6db 41%, #b993d6 75%, #a044ff);
     /* background: -o-radial-gradient( transparent 34.8%, #f56e8d 35%, #f53d68 75%, #b02c4b 100%); */
-    /* background: radial-gradient( circle farthest-corner at 100px 50px, transparent 2%, #E768AD 35%, #D435CD 85%, #4A036F 100%); */
-    background-image: linear-gradient(to top, #fbc7d4 0%, #9796f0 100%);
     /* background: radial-gradient(circle farthest-corner at 0% 100%, transparent 5%, #c5f 20%, transparent 40%), radial-gradient(circle farthest-side at 100% 0%, transparent 5%, #f66 25%, transparent 45%), radial-gradient(circle farthest-side at 60% 100%, transparent 5%, #0dd 15%, transparent 45%); */
 }
+
+
+/*
+#8ca6db 41%, #b993d6
+ #fbd3e9 41%, #bb377d 
+fdfc47, #24fe41 
+*/
 
 .jill-img {
     margin: 0px 0px 10px 15px;
