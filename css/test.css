@@ -79,16 +79,12 @@
 
 .abroad {
     z-index: -2;
-    background: linear-gradient(115deg, transparent 30.9%, #feac5e 31%, #c779d0, #4bc0c8);
+    background-image: url(../img/triangle2.png);
+    /* background-image: url(../img/pat2.jpg); */
+    /* background-image: url(../img/geo5.png); */
+    /* background-image: url(../img/gr4.jpg); */
+    /* background: linear-gradient(115deg, transparent 30.9%, #feac5e 31%, #c779d0, #4bc0c8); */
     /* background: -moz-linear-gradient(335deg, transparent 34.8%, #faffd1 35%, #a1ffce 100%); */
-    /* 
-     #feac5e 31%, #c779d0 , #4bc0c8 
-    #7f00ff 31%, #e100ff 
-#ff6b6b 31%, #556270
-    #16222a 35%,  #3a6073 
-   #4ecdc4 35%, #556270 
-    #bbd2c5 35%, #536976 
-  */
 }
 
 .abroad-img_size {
@@ -110,8 +106,12 @@
     border-radius: 10px;
     box-shadow: 0 0 5px 4px rgba(222, 222, 222, 0.4);
     margin: 15px;
-    background: linear-gradient(130deg, transparent 70%, #fff 70.5%, #afa 70.6%, transparent 100%), linear-gradient(150deg, transparent 40%, #fff 40.5%, #acf 40.6%, transparent 100%);
-    background: -moz-linear-gradient(330deg, transparent 70%, #fff 70.5%, #afa 70.6%, transparent 100%), -moz-linear-gradient(310deg, transparent 40%, #fff 40.5%, #acf 40.6%, transparent 100%);
+    background: linear-gradient(130deg, transparent 70%, #fff 70.5%, #FFbf8f 70.6%, transparent 100%), linear-gradient(150deg, transparent 40%, #fff 40.5%, #FF9DDF 40.6%, transparent 100%);
+    background: -moz-linear-gradient(330deg, transparent 70%, #fff 70.5%, #FFbf8f 70.6%, transparent 100%), -moz-linear-gradient(310deg, transparent 40%, #fff 40.5%, #FF9DDF 40.6%, transparent 100%);
+    background: -webkit-linear-gradient(330deg, transparent 70%, #fff 70.5%, #FFbf8f 70.6%, transparent 100%), -moz-linear-gradient(310deg, transparent 40%, #fff 40.5%, #FF9DDF 40.6%, transparent 100%);
+    background: -o-linear-gradient(330deg, transparent 70%, #fff 70.5%, #FFbf8f 70.6%, transparent 100%), -moz-linear-gradient(310deg, transparent 40%, #fff 40.5%, #FF9DDF 40.6%, transparent 100%);
+    /* background: linear-gradient(130deg, transparent 70%, #FDACAC 70.5%, #afa 70.6%, transparent 100%), linear-gradient(150deg, transparent 40%, #fff 40.5%, #acf 40.6%, transparent 100%);
+    background: -moz-linear-gradient(330deg, transparent 70%, #FFAA73 70.5%, #afa 70.6%, transparent 100%), -moz-linear-gradient(310deg, transparent 40%, #fff 40.5%, #acf 40.6%, transparent 100%); */
     /* background: -webkit-linear-gradient( );
     background: -o-linear-gradient( ); */
 }

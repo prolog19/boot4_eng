@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap");
 @import url("../css/media.css");
-@import url("../css/test.css");
+@import url("../css/abroad.css");
+@import url("../css/moscow.css");
 
 /* @import url("../css/test.css"); */
 
@@ -16,7 +17,7 @@ body {
 }
 
 .wrap {
-    max-width: 1280px;
+    max-width: 1100px;
     min-width: 320px;
     margin: 0 auto;
     overflow: hidden;
@@ -25,6 +26,17 @@ body {
 .wrap p {
     /* font-family: "Montserrat", sans-serif; */
     text-indent: 15px;
+}
+
+.p_attract {
+    /* for strong part of p  */
+    /* font-style: italic; */
+    font-weight: bold;
+    color: #141e30;
+}
+
+hr {
+    color: #a770ef;
 }
 
 .bg-dark1 {
@@ -216,7 +228,7 @@ body {
 }
 
 .lider-text {
-    color: #245;
+    color: #332
     /* text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 1px #ffffff; */
 }
 
@@ -241,7 +253,11 @@ fdfc47, #24fe41
 */
 
 .jill-img {
-    margin: 0px 0px 10px 15px;
+    margin: 0px 0px 20px 5px;
+    /* width: 33vw;
+    min-width: 300px; */
+    width: 380px;
+    /* border: #0f0 1px solid; */
 }
 
 .jill-second {
@@ -253,13 +269,18 @@ fdfc47, #24fe41
     /*  #fbc7d4 35%, #9796f0   */
 }
 
-.jill-second__p {
+.jill-p {
     /* border: #e100ff 1px solid; */
     border: white 1px solid;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 4px white;
     padding: 15px;
     margin: 15px 5px 15px 35px;
+}
+
+.jill-p_wide {
+    width: 65vw;
+    min-width: 300px;
 }
 
 

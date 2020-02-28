@@ -59,9 +59,21 @@
 
 /* Landscape phones and smaller */
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     html,
     body {
         font-size: 0.8rem;
     }
+    .img-respons {
+        margin: 0 auto !important;
+        border: yellow 1px solid;
+    }
 }
+
+
+/* @media (max-width: 650) {
+    .img-respons {
+        margin: 0 auto;
+        border: yellow 1px solid;
+    }
+} */
