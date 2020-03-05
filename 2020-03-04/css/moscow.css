@@ -1,0 +1,37 @@
+.mos-table {
+    /* justify-content: center;
+    align-content: center; */
+    margin: 0 auto;
+}
+
+TABLE {
+    border-collapse: collapse;
+    /* Убираем двойные линии между ячейками */
+    width: 50vw;
+    min-width: 300px;
+    /* Ширина таблицы */
+}
+
+TH {
+    background: #B9E84E;
+    /* Цвет фона ячейки */
+    text-align: left;
+    /* Выравнивание по левому краю */
+}
+
+TD {
+    background: #D6FD7D;
+    /* Цвет фона ячеек */
+    text-align: center;
+    /* Выравнивание по центру */
+}
+
+TH,
+TD {
+    border: 1px solid #354C01;
+    /* Параметры рамки */
+    padding: 6px;
+    /* Поля вокруг текста */
+    font-style: italic;
+    font-size: 0.9em;
+}

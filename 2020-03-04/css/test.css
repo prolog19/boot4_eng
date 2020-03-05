@@ -87,6 +87,20 @@
     /* background: -moz-linear-gradient(335deg, transparent 34.8%, #faffd1 35%, #a1ffce 100%); */
 }
 
+.abroad-img_size {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    min-width: 220px;
+    border-radius: 15px;
+}
+
+.abroad-img {
+    /* overflow: hidden; */
+    justify-content: center;
+}
+
 .abroad-card {
     border: white 3px solid;
     border-radius: 10px;
