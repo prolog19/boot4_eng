@@ -1,9 +1,18 @@
 /* LIDER  */
 
-.lider-img_right {
+.lider-img {
     /* margin: 10px 0px 5px 15px; */
     /* border-radius: 15px; */
     width: 40%;
+    height: auto;
+    min-width: 290px;
+    margin: 5px;
+}
+
+.lider-img_sm {
+    /* margin: 10px 0px 5px 15px; */
+    /* border-radius: 15px; */
+    width: 30%;
     height: auto;
     min-width: 290px;
     margin: 5px;
@@ -63,7 +72,7 @@
 
 .abroad-img_size {
     margin: 5px;
-    width: 100%;
+    width: 95%;
     height: auto;
     max-width: 450px;
     min-width: 220px;
