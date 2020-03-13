@@ -12,7 +12,7 @@
 } */
 
 .block-second {
-    width: 95%;
+    width: 100%;
     min-width: 300px;
     min-height: 500px;
     max-height: 700px;
@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(155deg, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.4));
+    background: linear-gradient(155deg, rgba(0, 0, 10, 0.7) 10%, rgba(0, 0, 15, 0.4));
     z-index: -1;
     top: 0;
     left: -55%;
@@ -50,7 +50,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(155deg, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.5));
+    background: linear-gradient(155deg, rgba(0, 0, 10, 0.7) 15%, rgba(0, 0, 15, 0.5));
     z-index: -1;
     top: 0;
     left: -58%;
