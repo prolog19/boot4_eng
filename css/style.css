@@ -116,10 +116,10 @@ hr {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(155deg, rgba(0, 0, 10, 0.9) 10%, rgba(0, 0, 10, 0.4));
+    background: linear-gradient(155deg, rgba(0, 0, 10, 0.7) 10%, rgba(0, 0, 15, 0.4));
     z-index: -1;
     top: 0;
-    left: -55%;
+    left: -50%;
     border-right: white solid 3px;
     /* transform-origin: x y z; */
     transform-origin: 0% 0%;
@@ -140,10 +140,10 @@ hr {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: linear-gradient(155deg, rgba(0, 0, 10, 0.9) 15%, rgba(0, 0, 10, 0.6));
+    background: linear-gradient(155deg, rgba(0, 0, 10, 0.7) 15%, rgba(0, 0, 15, 0.5));
     z-index: -1;
     top: 0;
-    left: -58%;
+    left: -53%;
     border-right: white solid 2px;
     /* transform-origin: x y z; */
     transform-origin: 0% 0%;
@@ -165,7 +165,7 @@ hr {
 
 .head-block__descr {
     /* margin: 0 0 0 0; */
-    padding: 4vw 15vw 7vw 4vw;
+    padding: 4vw 30vw 7vw 4vw;
 }
 
 .h-contour {
