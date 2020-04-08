@@ -185,3 +185,31 @@
     -o-transform: skewX(15deg);
     -ms-transform: skewX(15deg);
 }
+
+
+/* TEST */
+
+
+/* indigo darkviolet crimson  */
+
+.brd {
+  border: lime solid 2px;
+}
+
+
+/* OLD */
+
+.main-line__h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 0.8;
+  color: #000000;
+  text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 5px #473950;
+  padding-left: 3%;
+  padding-bottom: 1%;
+}
+
+.mirror {
+  transform: rotate(180deg);
+}
+

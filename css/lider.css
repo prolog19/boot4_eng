@@ -1,0 +1,62 @@
+
+
+/* LIDER  */
+
+/* General Text Decoration  */
+
+.decor-txt_tl,
+.decor-txt_br,
+.decor-txt_r,
+.decor-txt_l {
+  padding: 0px 10px 0px 10px;
+  margin: 0 1rem 0 1rem;
+}
+
+.decor-txt_tl {
+  border-top: #00695c 4px dashed;
+  border-left: #00695c 4px dashed;
+  border-radius: 11px;
+}
+
+.decor-txt_br {
+  border-bottom: #00695c 4px dashed;
+  border-right: #00695c 4px dashed;
+  border-radius: 11px;
+}
+
+.decor-txt_r {
+  border-right: #00695c 4px dashed;
+}
+
+.decor-txt_l {
+  border-left: #00695c 4px dashed;
+}
+
+.lider {
+  z-index: -2;
+  /* background: linear-gradient(137deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), linear-gradient(115deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
+    background: -moz-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -moz-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
+    background: -webkit-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -webkit-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5);
+    background: -o-linear-gradient(317deg, #7f7fd5 0%, #86a8e7, #91eae4 24.9%, transparent 25%), -o-linear-gradient(335deg, transparent 42.9%, #91eae4 43%, #86a8e7, #7f7fd5); */
+  /* background: linear-gradient(137deg, #b993d6, #8ca6db 24.9%, transparent 25%), linear-gradient(115deg, transparent 42.9%, #8ca6db 41%, #b993d6 80%, #a044ff); */
+  /* background: linear-gradient(125deg, #b1c5d4c0, #71879ac0 27.9%, transparent 28%), linear-gradient(110deg, transparent 42.9%, #71879ac0 41%, #b1c5d4c0); */
+  /* background: linear-gradient(125deg, rgba(63, 81, 181, 0.1), rgba(63, 81, 181, 0.4) 27.9%, transparent 28%), linear-gradient(110deg, transparent 42.9%, rgba(63, 81, 181, 0.4) 41%, rgba(63, 81, 181, 0.1)); */
+  background: linear-gradient(125deg, #a9a3fa, #a9d2ff 27.9%, transparent 28%),
+    linear-gradient(110deg, transparent 42.9%, #a9d2ff 41%, #a9a3fa);
+}
+
+.lider-h_block {
+  color: white;
+  /* background: linear-gradient( to right, #589d62c0, #5ba56ec0); */
+  background: linear-gradient(to right, #218457d0, #00b060e0);
+  padding: 1rem;
+  margin: 2rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 3px #677;
+}
+
+.lider-text {
+  color: #543;
+  /* color: #263238; */
+  /* text-shadow: 1px 0px #ffffff, 0px 1px #ffffff, -1px 0px #ffffff, 0px -1px #ffffff, 0px 0px 1px #ffffff; */
+}

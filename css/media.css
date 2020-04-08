@@ -71,9 +71,9 @@
 }
 
 
-/* @media (max-width: 650) {
+@media (max-width: 650) {
     .img-respons {
         margin: 0 auto;
         border: yellow 1px solid;
     }
-} */
+}

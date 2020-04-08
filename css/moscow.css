@@ -1,3 +1,9 @@
+
+.moscow {
+  background-color: #daf3f7;
+}
+
+
 .mos-table {
     /* justify-content: center;
     align-content: center; */
@@ -6,21 +12,22 @@
 
 TABLE {
     border-collapse: collapse;
+    border-radius: 10px;
     /* Убираем двойные линии между ячейками */
-    width: 50vw;
-    min-width: 300px;
+    width: 45vw;
+    min-width: 310px;
     /* Ширина таблицы */
 }
 
 TH {
-    background: #B9E84E;
+    background: rgb(231, 231, 255, 1);
     /* Цвет фона ячейки */
     text-align: left;
     /* Выравнивание по левому краю */
 }
 
 TD {
-    background: #D6FD7D;
+    background: rgb(231, 231, 255, 0.5);
     /* Цвет фона ячеек */
     text-align: center;
     /* Выравнивание по центру */
@@ -28,10 +35,37 @@ TD {
 
 TH,
 TD {
-    border: 1px solid #354C01;
+    /* border: 1px solid #354C01; */
+    border-radius: 15px;
     /* Параметры рамки */
-    padding: 6px;
+    padding: 15px;
     /* Поля вокруг текста */
     font-style: italic;
     font-size: 0.9em;
 }
+
+.col1 {
+  background-color: #e8c6ffc0;
+}
+.col2 {
+  background-color: #FFC6DD99;
+}
+.col3 {
+  background-color: #FFC6FA99;
+}
+.col4 {
+  background-color: #FFCCc699;
+}
+.col5 {
+  background-color: #e9c6ff99;
+}
+.col6 {
+  background-color: #FFC6DDbb;
+}
+
+
+
+
+
+
+
